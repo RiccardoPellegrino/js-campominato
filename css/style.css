@@ -4,12 +4,12 @@ h1{
 }
 header{
     height: 80px;
-    background-color: black;
+    background-color: rgb(31, 65, 50);
 
 }
 footer{
     height: 80px;
-    background-color: black;
+    background-color: rgb(31, 65, 50);
 }
 main{
     height: calc(100vh - 160px);
@@ -22,7 +22,7 @@ main{
     align-content: flex-start;
     width: 500px;
     height: 500px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 .quadrato{
     display: flex;
