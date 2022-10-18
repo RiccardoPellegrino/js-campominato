@@ -52,14 +52,15 @@ function play() {
        
         if (!bombsPosition.includes(num)) {
             this.classList.add('selezionato');
-            this.innerHTML = `<span>${num}</span>`;
+            this.innerHTML = `<span class="invisible">${num}</span>`;
             score++;
             console.log(score);
             if (score === MAX_ATTEMPT) {
                 endGame();
             }
         } else {
-            this.style.backgroundColor = 'red';
+            this.innerHTML = `<span class="invisible">${num}</span>`;
+            this.style.backgroundColor = 'myred';
             endGame();
         }
        
@@ -98,14 +99,15 @@ function play() {
             quadrati[i].removeEventListener('click', scegli);
             let num = i + 1;
             if (bombsPosition.includes(num)) {
-                quadrati[i].classList.add('red');
+                quadrati[i].classList.add('myred');
+                quadrati[i].innerHTML= `<span class="invisible">${num}</span>`;
             }
         }
         if (score === MAX_ATTEMPT) {
             text.innerHTML = 'Hai vinto con il punteggio massimo ' +score;
             console.log('hai vinto');
         } else {
-            text.innerHTML = 'Hai perso con questo questo punteggio '+score;
+            text.innerHTML = 'Hai perso con questo questo punteggio ' +score;
 
             console.log('Hai perso');
         }

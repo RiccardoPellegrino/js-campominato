@@ -33,7 +33,15 @@ main{
 }
 .selezionato{
     background-color: rgb(15, 218, 93);
+    background-image: url("../img/6188570.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.red{
+.myred{
     background-color: red;
+    background-image: url("../img/595582.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
