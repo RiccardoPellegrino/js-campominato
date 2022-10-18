@@ -107,7 +107,7 @@ function play() {
             text.innerHTML = 'Hai vinto con il punteggio massimo ' +score;
             console.log('hai vinto');
         } else {
-            text.innerHTML = 'Hai perso con questo questo punteggio ' +score;
+            text.innerHTML = 'Hai perso con il punteggio  di ' +score;
 
             console.log('Hai perso');
         }
