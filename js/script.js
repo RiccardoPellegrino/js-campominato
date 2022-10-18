@@ -90,6 +90,10 @@ function play() {
     }
     creaGriglia();
 
+    function playSound(){
+        let audio = new Audio("boom.mp3");
+        audio.play();
+    }
 
     function endGame() {
         console.log('endGame');
@@ -108,7 +112,8 @@ function play() {
             console.log('hai vinto');
         } else {
             text.innerHTML = 'Hai perso con il punteggio  di ' +score;
-
+            
+            playSound();
             console.log('Hai perso');
         }
         
