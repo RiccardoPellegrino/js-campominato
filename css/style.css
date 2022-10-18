@@ -17,6 +17,7 @@ main{
     overflow-y: auto;
 }
 .griglia{
+    margin-top: 90px;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
