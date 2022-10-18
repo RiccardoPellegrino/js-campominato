@@ -13,6 +13,7 @@ function play() {
     let testo = document.getElementById("testo");
     let text = document.getElementById('text');
     testo.innerHTML = '';
+    text.innerHTML ='';
     let numCell;
     const fieldGame = document.getElementById('field-game');
     fieldGame.innerHTML = '';
@@ -101,15 +102,16 @@ function play() {
             }
         }
         if (score === MAX_ATTEMPT) {
-            text.innerHTML = 'Hai vinto con il punteggio massimo' +score;
+            text.innerHTML = 'Hai vinto con il punteggio massimo ' +score;
             console.log('hai vinto');
         } else {
             text.innerHTML = 'Hai perso con questo questo punteggio '+score;
-            
+
             console.log('Hai perso');
         }
+        
     }
-
+  
 }
 
 
