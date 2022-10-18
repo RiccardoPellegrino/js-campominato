@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="./js/libreria.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="d-flex justify-content-around align-items-center">
+            <h1> Griglia Campo Minato </h1>
+            <div>
+                <select name="livello" id="livello">
+                    <option value="1"> Facile </option>
+                    <option value="2"> Difficile </option>
+                    <option value="3"> Ultra </option>
+                </select>
+                <button class="btn btn-secondary ms-5 pe-3 ps-3" id="play">Play</button>
+                <button class="btn btn-secondary ms-5" id="reset">Reset</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="bg-dark">
+
+        <h2 id="testo" class="text-center text-warning mt-5 fs-1">Seleziona un livello di difficolt&aacute; per iniziare
+            la partita</h2>
+        <div id="field-game" class="d-flex justify-content-center align-items-center mt-5">
+        </div>
+        <div class="text-center text-warning mt-5 fs-1">
+            <h2 id="text"></h2>
+        </div>
+    </main>
+
+
+    <footer class="d-flex justify-content-center align-items-center text-white fs-1">
+        Created by Class#74 of Boolean
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

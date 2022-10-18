@@ -1,0 +1,39 @@
+h1{
+    color: green;
+    text-align: center;
+}
+header{
+    height: 80px;
+    background-color: black;
+
+}
+footer{
+    height: 80px;
+    background-color: black;
+}
+main{
+    height: calc(100vh - 160px);
+    background-color: aquamarine;
+    overflow-y: auto;
+}
+.griglia{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+.quadrato{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.selezionato{
+    background-color: rgb(15, 218, 93);
+}
+.red{
+    background-color: red;
+}
