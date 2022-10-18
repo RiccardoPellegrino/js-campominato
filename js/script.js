@@ -12,7 +12,7 @@ function play() {
     let score = 0;
     let testo = document.getElementById("testo");
     let text = document.getElementById('text');
-    testo.innerHTML = '';
+    testo.innerHTML = 'Buona Fortuna';
     text.innerHTML ='';
     let numCell;
     const fieldGame = document.getElementById('field-game');
